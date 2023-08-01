@@ -1,6 +1,6 @@
 export const ButtonCheckout = () => {
   return (
-    <button className="bg-violet-700 h-12 rounded-md text-zinc-200 font-medium hover:bg-violet-500">
+    <button className="bg-brand-color h-12 rounded-md text-text-color-primary font-medium hover:bg-brand-color-light">
       Finalizar compra
     </button>
   );

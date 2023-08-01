@@ -15,16 +15,16 @@ export const Header = () => {
   );
 
   return (
-    <header className="flex justify-between border-b border-zinc-900 p-5 md:py-8">
+    <header className="flex justify-between border-b border-stroke-color p-5 md:py-8">
       <div></div>
       <button
-        className="text-gray-300 relative cursor-pointer md:text-2xl"
+        className="text-text-color-secondary relative cursor-pointer md:text-2xl"
         onClick={() => dispatch(toggleMenu())}
       >
         {countProducts >= 1 && (
-          <div className="absolute -top-3 left-2/3 -translate-x-2/3 w-4 h-4 md:w-6 md:h-6 md:-top-5 px-2 bg-violet-500 rounded-full flex items-center justify-center font-semibold">
-            <span className="text-xs md:text-md text-gray-100">
-              {countProducts}
+          <div className="absolute -top-3 left-2/3 -translate-x-2/3 w-4 h-4 md:w-6 md:h-6 md:-top-5 px-2 bg-brand-color rounded-full flex items-center justify-center font-semibold">
+            <span className="text-xs md:text-md text-text-color-primary">
+              {countProducts > 99 ? "99+" : countProducts}
             </span>
           </div>
         )}

@@ -23,8 +23,8 @@ export const CartFooter = () => {
   }, [products]);
 
   return (
-    <footer className="p-5 w-full h-full flex flex-col gap-5 bg-zinc-950">
-      <div className="text-zinc-200 flex justify-between flex-1">
+    <footer className="p-5 w-full h-full flex flex-col gap-5 bg-surface-color">
+      <div className="text-text-color-primary flex justify-between flex-1">
         <strong className="text-2xl md:text-3xl">Total: </strong>
         <div className="text-right space-y-2">
           <strong className="text-xl md:text-2xl">{total}</strong>

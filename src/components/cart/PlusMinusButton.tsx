@@ -20,7 +20,7 @@ export const PlusMinusButton = ({
     <div className="transition-colors">
       {action === "minus" ? (
         <button
-          className="h-8 w-8 font-semibold rounded-md cursor-pointer border border-gray-500 text-violet-500 hover:text-gray-100 hover:border-violet-500 bg-transparent"
+          className="h-8 w-8 font-semibold rounded-md cursor-pointer border border-stroke-color text-brand-color-light hover:text-text-color-primary hover:border-brand-color-light bg-transparent"
           onClick={() => dispatch(decrement(productId))}
           {...props}
         >
@@ -28,7 +28,7 @@ export const PlusMinusButton = ({
         </button>
       ) : (
         <button
-          className="h-8 w-8 font-semibold rounded-md cursor-pointer border border-violet-500 text-violet-500 hover:text-gray-100 hover:bg-violet-500"
+          className="h-8 w-8 font-semibold rounded-md cursor-pointer border border-brand-color-light text-brand-color-light hover:text-text-color-primary hover:bg-brand-color-light"
           onClick={() => dispatch(increment(productId))}
           {...props}
         >

@@ -11,18 +11,18 @@ export const AddCupom = () => {
     <>
       {cupom ? (
         <div className="flex items-center gap-2 text-sm justify-end w-full text-right">
-          <TagIcon size={14} />{" "}
+          <TagIcon size={14} className="text-brand-color-lighter" />{" "}
           <input
             type="text"
             onBlur={() => (textCupom ? null : setCupom(false))}
             autoFocus={true}
             onChange={({ target }) => setTextCupom(target.value)}
             value={textCupom}
-            className="w-3/5 bg-transparent border-b-2 border-violet-400 text-zinc-100 relative outline-none pr-5 font-semibold text-sm md:text-lg"
+            className="w-3/5 bg-transparent border-b-2 border-brand-color-light focus-within:border-brand-color-lighter text-text-color-secondary relative outline-none pr-5 font-semibold text-sm md:text-lg"
           />
           <X
             size={16}
-            className="absolute right-5 z-50 bg-zinc-950 cursor-pointer"
+            className="absolute right-5 z-50 bg-surface-color cursor-pointer"
             onClick={() => {
               setCupom(false);
               setTextCupom("");
@@ -31,7 +31,7 @@ export const AddCupom = () => {
         </div>
       ) : (
         <button
-          className="text-violet-500 flex items-center gap-2 text-sm justify-end hover:text-violet-400 transition-colors w-full"
+          className="text-brand-color-light flex items-center gap-2 text-sm justify-end hover:text-brand-color-lighter transition-colors w-full"
           onClick={() => setCupom(true)}
         >
           <TagIcon size={14} /> Adicionar cupom

@@ -3,7 +3,7 @@ import { Wrapper } from "@/components/cart/Wrapper";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen bg-zinc-950 overflow-hidden relative">
+    <main className="w-full h-screen bg-surface-color overflow-hidden relative">
       <Header />
       <Wrapper />
     </main>
