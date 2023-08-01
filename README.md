@@ -18,6 +18,13 @@
 
 <br>
 
+<br>
+
+## 💻 Projeto <a name = "projeto"></a>
+
+Esse projeto foi desafio do #boracodar da rocketseat com intuito de praticar habilidades tecnicas de frontend com Next.js, Redux e TypeScript. 
+
+<br>
 <div align="center">
 
 ![Preview](Cover.png)
@@ -25,13 +32,6 @@
 </div>
 
 <hr>
-<br>
-<br>
-
-## 💻 Projeto <a name = "projeto"></a>
-
-Esse projeto foi desafio do #boracodar da rocketseat com intuito de praticar habilidades tecnicas de frontend com Next.js, Redux e TypeScript. 
-
 <br>
 <br>
 
