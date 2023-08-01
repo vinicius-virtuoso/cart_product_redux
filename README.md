@@ -1,34 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Habits</h1>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+  [Projeto](#projeto) 
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Tecnologias](#tecnologias)
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Layout](#layout)
+    &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  [Licença](#license)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+</div>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<div align="center">
 
-## Learn More
+![Preview](Cover.png)
 
-To learn more about Next.js, take a look at the following resources:
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<hr>
+<br>
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 💻 Projeto <a name = "projeto"></a>
 
-## Deploy on Vercel
+Esse projeto foi desafio do #boracodar da rocketseat com intuito de praticar habilidades tecnicas de frontend com Next.js, Redux e TypeScript. 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<br>
+<br>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🚀 Tecnologias <a name = "tecnologias"></a>
+
+- TypeScript
+- Next.js
+- Redux
+
+<br>
+<br>
+
+## 🔖 Layout <a name = "layout"></a>
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1243194167725942248). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+
+<br>
+<br>
+
+## 🔒 Licença <a name = "license"></a>
+
+Esse projeto está sob a licença MIT.
+
+<hr>
